@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  SimpleWeather
 //
-//  Created by woojin Choi on 2023/03/30.
+//  Created by woojin Choi on 2023/03/31.
 //
 
 import UIKit
