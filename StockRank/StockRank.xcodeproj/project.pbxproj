@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4629B3A929D9D6D90064892F /* StockRankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4629B3A829D9D6D80064892F /* StockRankViewController.swift */; };
+		4629B3AB29D9DCB30064892F /* StockRankCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4629B3AA29D9DCB30064892F /* StockRankCollectionViewCell.swift */; };
 		944800E2280EE8ED00D7E44C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944800E1280EE8ED00D7E44C /* AppDelegate.swift */; };
 		944800E4280EE8ED00D7E44C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944800E3280EE8ED00D7E44C /* SceneDelegate.swift */; };
 		944800E9280EE8ED00D7E44C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944800E7280EE8ED00D7E44C /* Main.storyboard */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4629B3A829D9D6D80064892F /* StockRankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockRankViewController.swift; sourceTree = "<group>"; };
+		4629B3AA29D9DCB30064892F /* StockRankCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockRankCollectionViewCell.swift; sourceTree = "<group>"; };
 		944800DE280EE8ED00D7E44C /* StockRank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockRank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		944800E1280EE8ED00D7E44C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		944800E3280EE8ED00D7E44C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 				944800E1280EE8ED00D7E44C /* AppDelegate.swift */,
 				944800E3280EE8ED00D7E44C /* SceneDelegate.swift */,
 				94480115280EF1E800D7E44C /* StockModel.swift */,
+				4629B3A829D9D6D80064892F /* StockRankViewController.swift */,
+				4629B3AA29D9DCB30064892F /* StockRankCollectionViewCell.swift */,
 				944800E7280EE8ED00D7E44C /* Main.storyboard */,
 				944800EA280EE8EE00D7E44C /* Assets.xcassets */,
 				944800EC280EE8EE00D7E44C /* LaunchScreen.storyboard */,
@@ -260,7 +266,9 @@
 			files = (
 				944800E2280EE8ED00D7E44C /* AppDelegate.swift in Sources */,
 				94480116280EF1E800D7E44C /* StockModel.swift in Sources */,
+				4629B3AB29D9DCB30064892F /* StockRankCollectionViewCell.swift in Sources */,
 				944800E4280EE8ED00D7E44C /* SceneDelegate.swift in Sources */,
+				4629B3A929D9D6D90064892F /* StockRankViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +445,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MTWK7B57YU;
+				DEVELOPMENT_TEAM = C98APEMDUR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StockRank/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -450,7 +458,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cana.StockRank;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joonwon.StockRank;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -465,7 +473,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MTWK7B57YU;
+				DEVELOPMENT_TEAM = C98APEMDUR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StockRank/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -478,7 +486,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cana.StockRank;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joonwon.StockRank;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
