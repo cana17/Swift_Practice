@@ -26,9 +26,24 @@ class StockRankCollectionViewCell: UICollectionViewCell {
         rankLabel.text = "\(stock.rank)"
         companyIconImageView.image = UIImage(named: stock.imageName)
         companyNameLabel.text = stock.name
-        companyPriceLabel.text = "\(stock.price) 원"
+        companyPriceLabel.text = "\(convertToCurrencyFormat(price: stock.price)) 원"
+        
         diffLabel.text = "\(stock.diff)%"
+            if stock.diff > 0 {
+                diffLabel.textColor = UIColor.red
+            } else {
+                diffLabel.textColor = UIColor.blue
+            }
+        
     }
     
-    
+    func convertToCurrencyFormat(price: Int) -> String {
+        let numberFormatter = NumberFormatter()
+        numberFormatter.numberStyle = .decimal
+        numberFormatter.maximumFractionDigits = 0 // 소수점 제거
+        let result = numberFormatter.string(from: NSNumber(value: price)) ?? "" // Nil 대비하여 크래쉬 방지
+        return result
+    }
+    // NumberFormatter() Foundation 함수를 통해 세자리수마다 콤마(,)를 찍음
+
 }
