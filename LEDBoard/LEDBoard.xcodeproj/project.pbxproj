@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46C01CCF29E4DA1900FE0A6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C01CCE29E4DA1900FE0A6E /* AppDelegate.swift */; };
+		46C01CD129E4DA1900FE0A6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C01CD029E4DA1900FE0A6E /* SceneDelegate.swift */; };
+		46C01CD329E4DA1900FE0A6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C01CD229E4DA1900FE0A6E /* ViewController.swift */; };
+		46C01CD629E4DA1900FE0A6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46C01CD429E4DA1900FE0A6E /* Main.storyboard */; };
+		46C01CD829E4DA1900FE0A6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46C01CD729E4DA1900FE0A6E /* Assets.xcassets */; };
+		46C01CDB29E4DA1900FE0A6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46C01CD929E4DA1900FE0A6E /* LaunchScreen.storyboard */; };
+		46C01CE629E4DA1900FE0A6E /* LEDBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C01CE529E4DA1900FE0A6E /* LEDBoardTests.swift */; };
+		46C01CF029E4DA1A00FE0A6E /* LEDBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C01CEF29E4DA1A00FE0A6E /* LEDBoardUITests.swift */; };
+		46C01CF229E4DA1A00FE0A6E /* LEDBoardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C01CF129E4DA1A00FE0A6E /* LEDBoardUITestsLaunchTests.swift */; };
+		46C01CFF29E4EB5400FE0A6E /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C01CFE29E4EB5400FE0A6E /* SettingViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46C01CE229E4DA1900FE0A6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46C01CC329E4DA1900FE0A6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46C01CCA29E4DA1900FE0A6E;
+			remoteInfo = LEDBoard;
+		};
+		46C01CEC29E4DA1A00FE0A6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46C01CC329E4DA1900FE0A6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46C01CCA29E4DA1900FE0A6E;
+			remoteInfo = LEDBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46C01CCB29E4DA1900FE0A6E /* LEDBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEDBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46C01CCE29E4DA1900FE0A6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46C01CD029E4DA1900FE0A6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		46C01CD229E4DA1900FE0A6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46C01CD529E4DA1900FE0A6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46C01CD729E4DA1900FE0A6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46C01CDA29E4DA1900FE0A6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46C01CDC29E4DA1900FE0A6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46C01CE129E4DA1900FE0A6E /* LEDBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEDBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46C01CE529E4DA1900FE0A6E /* LEDBoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDBoardTests.swift; sourceTree = "<group>"; };
+		46C01CEB29E4DA1A00FE0A6E /* LEDBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEDBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46C01CEF29E4DA1A00FE0A6E /* LEDBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDBoardUITests.swift; sourceTree = "<group>"; };
+		46C01CF129E4DA1A00FE0A6E /* LEDBoardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDBoardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		46C01CFE29E4EB5400FE0A6E /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46C01CC829E4DA1900FE0A6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C01CDE29E4DA1900FE0A6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C01CE829E4DA1A00FE0A6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46C01CC229E4DA1900FE0A6E = {
+			isa = PBXGroup;
+			children = (
+				46C01CCD29E4DA1900FE0A6E /* LEDBoard */,
+				46C01CE429E4DA1900FE0A6E /* LEDBoardTests */,
+				46C01CEE29E4DA1A00FE0A6E /* LEDBoardUITests */,
+				46C01CCC29E4DA1900FE0A6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46C01CCC29E4DA1900FE0A6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46C01CCB29E4DA1900FE0A6E /* LEDBoard.app */,
+				46C01CE129E4DA1900FE0A6E /* LEDBoardTests.xctest */,
+				46C01CEB29E4DA1A00FE0A6E /* LEDBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46C01CCD29E4DA1900FE0A6E /* LEDBoard */ = {
+			isa = PBXGroup;
+			children = (
+				46C01CCE29E4DA1900FE0A6E /* AppDelegate.swift */,
+				46C01CD029E4DA1900FE0A6E /* SceneDelegate.swift */,
+				46C01CD229E4DA1900FE0A6E /* ViewController.swift */,
+				46C01CD429E4DA1900FE0A6E /* Main.storyboard */,
+				46C01CFE29E4EB5400FE0A6E /* SettingViewController.swift */,
+				46C01CD729E4DA1900FE0A6E /* Assets.xcassets */,
+				46C01CD929E4DA1900FE0A6E /* LaunchScreen.storyboard */,
+				46C01CDC29E4DA1900FE0A6E /* Info.plist */,
+			);
+			path = LEDBoard;
+			sourceTree = "<group>";
+		};
+		46C01CE429E4DA1900FE0A6E /* LEDBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				46C01CE529E4DA1900FE0A6E /* LEDBoardTests.swift */,
+			);
+			path = LEDBoardTests;
+			sourceTree = "<group>";
+		};
+		46C01CEE29E4DA1A00FE0A6E /* LEDBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46C01CEF29E4DA1A00FE0A6E /* LEDBoardUITests.swift */,
+				46C01CF129E4DA1A00FE0A6E /* LEDBoardUITestsLaunchTests.swift */,
+			);
+			path = LEDBoardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46C01CCA29E4DA1900FE0A6E /* LEDBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46C01CF529E4DA1A00FE0A6E /* Build configuration list for PBXNativeTarget "LEDBoard" */;
+			buildPhases = (
+				46C01CC729E4DA1900FE0A6E /* Sources */,
+				46C01CC829E4DA1900FE0A6E /* Frameworks */,
+				46C01CC929E4DA1900FE0A6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LEDBoard;
+			productName = LEDBoard;
+			productReference = 46C01CCB29E4DA1900FE0A6E /* LEDBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46C01CE029E4DA1900FE0A6E /* LEDBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46C01CF829E4DA1A00FE0A6E /* Build configuration list for PBXNativeTarget "LEDBoardTests" */;
+			buildPhases = (
+				46C01CDD29E4DA1900FE0A6E /* Sources */,
+				46C01CDE29E4DA1900FE0A6E /* Frameworks */,
+				46C01CDF29E4DA1900FE0A6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46C01CE329E4DA1900FE0A6E /* PBXTargetDependency */,
+			);
+			name = LEDBoardTests;
+			productName = LEDBoardTests;
+			productReference = 46C01CE129E4DA1900FE0A6E /* LEDBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46C01CEA29E4DA1A00FE0A6E /* LEDBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46C01CFB29E4DA1A00FE0A6E /* Build configuration list for PBXNativeTarget "LEDBoardUITests" */;
+			buildPhases = (
+				46C01CE729E4DA1A00FE0A6E /* Sources */,
+				46C01CE829E4DA1A00FE0A6E /* Frameworks */,
+				46C01CE929E4DA1A00FE0A6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46C01CED29E4DA1A00FE0A6E /* PBXTargetDependency */,
+			);
+			name = LEDBoardUITests;
+			productName = LEDBoardUITests;
+			productReference = 46C01CEB29E4DA1A00FE0A6E /* LEDBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46C01CC329E4DA1900FE0A6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					46C01CCA29E4DA1900FE0A6E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					46C01CE029E4DA1900FE0A6E = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 46C01CCA29E4DA1900FE0A6E;
+					};
+					46C01CEA29E4DA1A00FE0A6E = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 46C01CCA29E4DA1900FE0A6E;
+					};
+				};
+			};
+			buildConfigurationList = 46C01CC629E4DA1900FE0A6E /* Build configuration list for PBXProject "LEDBoard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46C01CC229E4DA1900FE0A6E;
+			productRefGroup = 46C01CCC29E4DA1900FE0A6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46C01CCA29E4DA1900FE0A6E /* LEDBoard */,
+				46C01CE029E4DA1900FE0A6E /* LEDBoardTests */,
+				46C01CEA29E4DA1A00FE0A6E /* LEDBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46C01CC929E4DA1900FE0A6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46C01CDB29E4DA1900FE0A6E /* LaunchScreen.storyboard in Resources */,
+				46C01CD829E4DA1900FE0A6E /* Assets.xcassets in Resources */,
+				46C01CD629E4DA1900FE0A6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C01CDF29E4DA1900FE0A6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C01CE929E4DA1A00FE0A6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46C01CC729E4DA1900FE0A6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46C01CD329E4DA1900FE0A6E /* ViewController.swift in Sources */,
+				46C01CCF29E4DA1900FE0A6E /* AppDelegate.swift in Sources */,
+				46C01CD129E4DA1900FE0A6E /* SceneDelegate.swift in Sources */,
+				46C01CFF29E4EB5400FE0A6E /* SettingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C01CDD29E4DA1900FE0A6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46C01CE629E4DA1900FE0A6E /* LEDBoardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C01CE729E4DA1A00FE0A6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46C01CF229E4DA1A00FE0A6E /* LEDBoardUITestsLaunchTests.swift in Sources */,
+				46C01CF029E4DA1A00FE0A6E /* LEDBoardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46C01CE329E4DA1900FE0A6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46C01CCA29E4DA1900FE0A6E /* LEDBoard */;
+			targetProxy = 46C01CE229E4DA1900FE0A6E /* PBXContainerItemProxy */;
+		};
+		46C01CED29E4DA1A00FE0A6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46C01CCA29E4DA1900FE0A6E /* LEDBoard */;
+			targetProxy = 46C01CEC29E4DA1A00FE0A6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46C01CD429E4DA1900FE0A6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46C01CD529E4DA1900FE0A6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46C01CD929E4DA1900FE0A6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46C01CDA29E4DA1900FE0A6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46C01CF329E4DA1A00FE0A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46C01CF429E4DA1A00FE0A6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46C01CF629E4DA1A00FE0A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MTWK7B57YU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LEDBoard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cana.LEDBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46C01CF729E4DA1A00FE0A6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MTWK7B57YU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LEDBoard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cana.LEDBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		46C01CF929E4DA1A00FE0A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MTWK7B57YU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cana.LEDBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LEDBoard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LEDBoard";
+			};
+			name = Debug;
+		};
+		46C01CFA29E4DA1A00FE0A6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MTWK7B57YU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cana.LEDBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LEDBoard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LEDBoard";
+			};
+			name = Release;
+		};
+		46C01CFC29E4DA1A00FE0A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MTWK7B57YU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cana.LEDBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LEDBoard;
+			};
+			name = Debug;
+		};
+		46C01CFD29E4DA1A00FE0A6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MTWK7B57YU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cana.LEDBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LEDBoard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46C01CC629E4DA1900FE0A6E /* Build configuration list for PBXProject "LEDBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46C01CF329E4DA1A00FE0A6E /* Debug */,
+				46C01CF429E4DA1A00FE0A6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46C01CF529E4DA1A00FE0A6E /* Build configuration list for PBXNativeTarget "LEDBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46C01CF629E4DA1A00FE0A6E /* Debug */,
+				46C01CF729E4DA1A00FE0A6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46C01CF829E4DA1A00FE0A6E /* Build configuration list for PBXNativeTarget "LEDBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46C01CF929E4DA1A00FE0A6E /* Debug */,
+				46C01CFA29E4DA1A00FE0A6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46C01CFB29E4DA1A00FE0A6E /* Build configuration list for PBXNativeTarget "LEDBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46C01CFC29E4DA1A00FE0A6E /* Debug */,
+				46C01CFD29E4DA1A00FE0A6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46C01CC329E4DA1900FE0A6E /* Project object */;
+}
