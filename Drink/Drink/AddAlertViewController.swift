@@ -8,8 +8,17 @@
 import UIKit
 
 class AddAlertViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    var datePicked: ((_ date: Date) -> Void)?
+    
+    @IBOutlet weak var datePicker: UIDatePicker!
+    
+    @IBAction func dissmisButtonTapped(_ sender: UIBarButtonItem) {
+        self.dismiss(animated: true, completion: nil)
     }
+    
+    @IBAction func saveButtonTapped(_ sender: UIBarButtonItem) {
+        datePicked?(datePicker.date)
+        self.dismiss(animated: true, completion: nil)
+    }
+    
 }

@@ -1,10 +1,11 @@
 //
-//  UNUserNotificationCenter.swift
+//  UNNotificationCenter.swift
 //  Drink
 //
-//  Created by woojin Choi on 2023/05/18.
+//  Created by woojin Choi on 2023/05/20.
 //
 
+import Foundation
 import UserNotifications
 
 extension UNUserNotificationCenter {

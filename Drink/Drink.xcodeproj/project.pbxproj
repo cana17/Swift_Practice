@@ -13,10 +13,11 @@
 		46253EAD2A153CCF00DAE5C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46253EAC2A153CCF00DAE5C8 /* Assets.xcassets */; };
 		46253EB02A153CCF00DAE5C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46253EAE2A153CCF00DAE5C8 /* LaunchScreen.storyboard */; };
 		46253EB82A153CFA00DAE5C8 /* AlertListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46253EB72A153CFA00DAE5C8 /* AlertListViewController.swift */; };
+		4656F5682A18E25800E68435 /* UNNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4656F5672A18E25800E68435 /* UNNotificationCenter.swift */; };
+		4656F56B2A18E2F700E68435 /* DrinkWater.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4656F5692A18E2F700E68435 /* DrinkWater.xcdatamodeld */; };
 		46D5712B2A1628BF0072FE62 /* AlertListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D571292A1628BF0072FE62 /* AlertListCell.swift */; };
 		46D5712C2A1628BF0072FE62 /* AlertListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46D5712A2A1628BF0072FE62 /* AlertListCell.xib */; };
 		46D5712E2A1628D60072FE62 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D5712D2A1628D60072FE62 /* Alert.swift */; };
-		46D571322A1629210072FE62 /* UNUserNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D571312A1629210072FE62 /* UNUserNotificationCenter.swift */; };
 		46D571342A1629450072FE62 /* AddAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D571332A1629450072FE62 /* AddAlertViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,10 +30,11 @@
 		46253EAF2A153CCF00DAE5C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46253EB12A153CCF00DAE5C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46253EB72A153CFA00DAE5C8 /* AlertListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListViewController.swift; sourceTree = "<group>"; };
+		4656F5672A18E25800E68435 /* UNNotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNNotificationCenter.swift; sourceTree = "<group>"; };
+		4656F56A2A18E2F700E68435 /* DrinkWater.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DrinkWater.xcdatamodel; sourceTree = "<group>"; };
 		46D571292A1628BF0072FE62 /* AlertListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListCell.swift; sourceTree = "<group>"; };
 		46D5712A2A1628BF0072FE62 /* AlertListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertListCell.xib; sourceTree = "<group>"; };
 		46D5712D2A1628D60072FE62 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
-		46D571312A1629210072FE62 /* UNUserNotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNUserNotificationCenter.swift; sourceTree = "<group>"; };
 		46D571332A1629450072FE62 /* AddAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlertViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,7 +72,7 @@
 				46253EA52A153CCE00DAE5C8 /* SceneDelegate.swift */,
 				46D5712D2A1628D60072FE62 /* Alert.swift */,
 				46253EB72A153CFA00DAE5C8 /* AlertListViewController.swift */,
-				46D571312A1629210072FE62 /* UNUserNotificationCenter.swift */,
+				4656F5672A18E25800E68435 /* UNNotificationCenter.swift */,
 				46D571292A1628BF0072FE62 /* AlertListCell.swift */,
 				46D5712A2A1628BF0072FE62 /* AlertListCell.xib */,
 				46D571332A1629450072FE62 /* AddAlertViewController.swift */,
@@ -78,6 +80,7 @@
 				46253EAC2A153CCF00DAE5C8 /* Assets.xcassets */,
 				46253EAE2A153CCF00DAE5C8 /* LaunchScreen.storyboard */,
 				46253EB12A153CCF00DAE5C8 /* Info.plist */,
+				4656F5692A18E2F700E68435 /* DrinkWater.xcdatamodeld */,
 			);
 			path = Drink;
 			sourceTree = "<group>";
@@ -154,13 +157,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4656F5682A18E25800E68435 /* UNNotificationCenter.swift in Sources */,
 				46253EA42A153CCE00DAE5C8 /* AppDelegate.swift in Sources */,
+				4656F56B2A18E2F700E68435 /* DrinkWater.xcdatamodeld in Sources */,
 				46253EA62A153CCE00DAE5C8 /* SceneDelegate.swift in Sources */,
 				46D571342A1629450072FE62 /* AddAlertViewController.swift in Sources */,
 				46D5712B2A1628BF0072FE62 /* AlertListCell.swift in Sources */,
 				46D5712E2A1628D60072FE62 /* Alert.swift in Sources */,
 				46253EB82A153CFA00DAE5C8 /* AlertListViewController.swift in Sources */,
-				46D571322A1629210072FE62 /* UNUserNotificationCenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +382,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4656F5692A18E2F700E68435 /* DrinkWater.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4656F56A2A18E2F700E68435 /* DrinkWater.xcdatamodel */,
+			);
+			currentVersion = 4656F56A2A18E2F700E68435 /* DrinkWater.xcdatamodel */;
+			path = DrinkWater.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 46253E982A153CCE00DAE5C8 /* Project object */;
 }
