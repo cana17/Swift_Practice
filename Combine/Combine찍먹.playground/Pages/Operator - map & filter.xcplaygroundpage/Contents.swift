@@ -7,15 +7,15 @@ import Combine
 let numPublisher = PassthroughSubject<Int, Never>()
 
 let subscription1 = numPublisher
-    .map { $0 * 2 }
+    .map { $0 * 2 } // data값을 두배로 하는 operator
     .sink { value in
         print("Tranformed Value: \(value)")
     }
 
-numPublisher.send(10)
-numPublisher.send(20)
-numPublisher.send(30)
-subscription1.cancel()
+numPublisher.send(10) // 20
+numPublisher.send(20) // 40
+numPublisher.send(30) // 60
+subscription1.cancel() // 구독취소
 
 // Filter
 let stringPublisher = PassthroughSubject<String, Never>()

@@ -52,9 +52,9 @@ let validatedCredentialsSubscription = Publishers.CombineLatest(usernamePublishe
     }
 
 //: Example: simulate typing a username and the password twice
-usernamePublisher.send("jasonlee")
-passwordPublisher.send("weakpw") // 12자리보다 작아서 false
-passwordPublisher.send("verystrongpassword") // 12자리 이상이라 true
+usernamePublisher.send("jasonlee") // username
+passwordPublisher.send("weakpw") // pw: 12자리보다 작아서 false
+passwordPublisher.send("verystrongpassword") // pw: 12자리 이상이라 true
 
 
 
@@ -72,3 +72,4 @@ let mergedPublishersSubscription = Publishers
 }
 
 //: [Next](@next)
+    
