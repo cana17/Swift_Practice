@@ -11,12 +11,14 @@ import Kingfisher
 
 class UserProfileViewController: UIViewController {
     
+    let network = NetworkService(configuration: .default)
+    
     @IBOutlet weak var thumbnail: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var loginLabel: UILabel!
     @IBOutlet weak var followerLabel: UILabel!
     @IBOutlet weak var followingLabel: UILabel!
-
+    
     @Published private(set) var user: UserProfile?
     var subscriptions = Set<AnyCancellable>()
     
@@ -63,62 +65,38 @@ class UserProfileViewController: UIViewController {
         self.loginLabel.text = user.login
         self.followerLabel.text = "follower: \(user.followers)"
         self.followingLabel.text = "folling: \(user.following)"
-        self.thumbnail.image = nil
+        
+        self.thumbnail.kf.setImage(with: user.avatarUrl)
     }
 }
 
 extension UserProfileViewController: UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {
         let keyword = searchController.searchBar.text
-        print("search: \(keyword)")
+        print("search: \(String(describing: keyword))")
     }
 }
 
 extension UserProfileViewController: UISearchBarDelegate {
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
-        print("button clicked: \(searchBar.text)")
+        print("button clicked: \(String(describing: searchBar.text))")
         
         guard let keyword = searchBar.text, !keyword.isEmpty else { return }
-        let base = "https://api.github.com/"
-        let path = "users/\(keyword)"
-        let params: [String: String] = [:]
-        let header: [String: String] = ["Content-Type": "application/json"]
-
-        var urlComponents = URLComponents(string: base + path)!
-        let queryItems = params.map { (key: String, value: String) in
-            URLQueryItem(name: key, value: value)
-        }
-        urlComponents.queryItems = queryItems
-
-        var request = URLRequest(url: urlComponents.url!)
-        header.forEach { (key: String, value: String) in
-            request.addValue(value, forHTTPHeaderField: key)
-        }
-
-        URLSession.shared.dataTaskPublisher(for: request)
-            .tryMap { result -> Data in
-                guard let response = result.response as? HTTPURLResponse,
-                      (200..<300).contains(response.statusCode)
-                else {
-                    let response = result.response as? HTTPURLResponse
-                    let statusCode = response?.statusCode ?? -1
-                    throw NetworkError.responseError(statusCode: statusCode)
-                }
-                return result.data
-            }
-            .decode(type: UserProfile.self, decoder: JSONDecoder())
+        
+        // Resource
+        let resource = Resource<UserProfile>(base: "https://api.github.com/", path: "users/\(keyword)", params: [:], header: ["Content-Type" : "application/json"])
+        
+        // Network Service
+        network.load(resource)
             .receive(on: RunLoop.main)
-            .sink(receiveCompletion: { completion in
-                print("completion: \(completion)")
+            .sink { completion in
                 switch completion {
-                case .failure(let error):
+                case .failure(_):
                     self.user = nil
-                    print("error: \(error)")
                 case .finished: break
                 }
-            }, receiveValue: { user in
+            } receiveValue: { user in
                 self.user = user
-            })
-            .store(in: &subscriptions)
+            }.store(in: &subscriptions)
     }
 }
