@@ -25,7 +25,7 @@ struct AssetSummaryView: View {
                     AssetSectionView(assetSection: asset)
                 }
             }
-            .background(Color.white)
+            .background(Color.white) 
             .clipShape(RoundedRectangle(cornerRadius: 10))
             .padding()
         }

@@ -29,6 +29,7 @@
 		46673E0A2A4B438500AEF3F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46673E092A4B438500AEF3F8 /* ContentView.swift */; };
 		46673E0C2A4B438600AEF3F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46673E0B2A4B438600AEF3F8 /* Assets.xcassets */; };
 		46673E0F2A4B438600AEF3F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46673E0E2A4B438600AEF3F8 /* Preview Assets.xcassets */; };
+		468BE2632A52C33800D71A9E /* MyAssetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468BE2622A52C33800D71A9E /* MyAssetsApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		46673E092A4B438500AEF3F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		46673E0B2A4B438600AEF3F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46673E0E2A4B438600AEF3F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		468BE2622A52C33800D71A9E /* MyAssetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAssetsApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 			children = (
 				463B96032A509E790026B253 /* AppDelegate.swift */,
 				463B96052A50B5BC0026B253 /* SceneDelegate.swift */,
+				468BE2622A52C33800D71A9E /* MyAssetsApp.swift */,
 				46673E092A4B438500AEF3F8 /* ContentView.swift */,
 				463B960E2A5166AF0026B253 /* Asset */,
 				463B963B2A51813F0026B253 /* PageViewController.swift */,
@@ -278,6 +281,7 @@
 				463B964C2A520EE70026B253 /* AssetSectionView.swift in Sources */,
 				463B96382A516E380026B253 /* AssetMenuGridView.swift in Sources */,
 				463B963C2A51813F0026B253 /* PageViewController.swift in Sources */,
+				468BE2632A52C33800D71A9E /* MyAssetsApp.swift in Sources */,
 				463B96422A520C7C0026B253 /* AssetSummaryView.swift in Sources */,
 				463B96062A50B5BC0026B253 /* SceneDelegate.swift in Sources */,
 				463B96152A5167380026B253 /* AssetMenu.swift in Sources */,
