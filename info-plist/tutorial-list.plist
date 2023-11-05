@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>array-items</key>
+	<array>
+		<string>Son Heung-min</string>
+	</array>
+	<key>dictionary-items</key>
+	<dict>
+		<key>X1</key>
+		<string>Tottenham Hotspur</string>
+	</dict>
+	<key>text</key>
+	<string>Hello property list</string>
+	<key>number</key>
+	<integer>7</integer>
+</dict>
+</plist>
